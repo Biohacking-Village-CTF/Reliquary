@@ -1,0 +1,70 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.user
+*.suo
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+out/
+build/
+dist/
+coverage/
+
+# Rust
+target/
+**/*.rs.bk
+
+# Python host-side prototypes and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local environment and configuration
+.env
+.env.*
+!.env.example
+*.local
+local-config/
+
+# Secrets and private key material
+secrets/
+private/
+*.pfx
+*.p12
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Generated RELIQUARY evidence and captures
+evidence-output/
+captures/
+usb-traces/
+fuzz-corpus-generated/
+
+# Private or regulated test data
+test-data/private/
+test-data/phi/
+test-data/raw-studies/
